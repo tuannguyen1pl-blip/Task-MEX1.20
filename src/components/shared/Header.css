@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #475569;
+  transition: color 0.2s;
+}
+
+.header-nav a:hover {
+  color: #2563eb;
+}
+
+.header-nav a.active {
+  color: #2563eb;
+  font-weight: 600;
+}
